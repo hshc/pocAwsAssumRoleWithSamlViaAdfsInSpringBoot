@@ -1,0 +1,20 @@
+spring:
+  security:
+    saml2:
+      relyingparty:
+        registration:
+          adfs:
+            identityprovider:
+              metadata-uri: https://adfs.exp-cloud.com/FederationMetadata/2007-06/FederationMetadata.xml
+          
+#        registration:
+#          adfs:
+#            identityprovider:
+#              entity-id: https://adfs.exp-cloud.com/adfs/services/trust
+#              verification:
+#                credentials:
+#                - certificate-location: "classpath:idp.crt"
+#              singlesignon:
+#                url: https://adfs.exp-cloud.com/adfs/ls
+#                sign-request: false
+baseUrl: tototiti

@@ -1,0 +1,144 @@
+<samlp:Response
+	ID="_bd9e5684-9d54-406b-91d8-64ecd556406d" Version="2.0"
+	IssueInstant="2021-05-19T09:53:18.794Z"
+	Destination="https://signin.aws.amazon.com/saml"
+	Consent="urn:oasis:names:tc:SAML:2.0:consent:unspecified"
+	xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol">
+	<Issuer xmlns="urn:oasis:names:tc:SAML:2.0:assertion">http://sts.b1envenue.com/adfs/services/trust</Issuer>
+	<samlp:Status>
+		<samlp:StatusCode
+			Value="urn:oasis:names:tc:SAML:2.0:status:Success" />
+	</samlp:Status>
+	<Assertion ID="_af72da79-ea57-4225-b912-29714e97bab3"
+		IssueInstant="2021-05-19T09:53:18.778Z" Version="2.0"
+		xmlns="urn:oasis:names:tc:SAML:2.0:assertion">
+		<Issuer>http://sts.b1envenue.com/adfs/services/trust</Issuer>
+		<ds:Signature
+			xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+			<ds:SignedInfo>
+				<ds:CanonicalizationMethod
+					Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+				<ds:SignatureMethod
+					Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+				<ds:Reference
+					URI="#_af72da79-ea57-4225-b912-29714e97bab3">
+					<ds:Transforms>
+						<ds:Transform
+							Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+						<ds:Transform
+							Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+					</ds:Transforms>
+					<ds:DigestMethod
+						Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+					<ds:DigestValue>TcGEPJ1JoX3yF2wpJELnQq/mf54ZiAhwFIL1zGKqIUY=</ds:DigestValue>
+				</ds:Reference>
+			</ds:SignedInfo>
+			<ds:SignatureValue>K7gazxCUxgonRzgB2PP65Bl2vApUPQD9oj2sC5glwbwLz9666FOfaNA0rHbpvJgOshXMB2HcP2PNOfkCxyBcrjmzBXTWO4yzejK+WrkAR5wvooU4JxvKDnBizDLTJr3ZCdy58LnFXb+qHYvfNQyqMeUU/acVrNuczPkIVk3/SMHRCtkM9FvsmDkHDTxELQSG0dofEkrdmGIYTxwfD+25Eop+bvyuu4WWp5T2sH2je7gxAdW2UBWrObM9PgCICbE9oMsXLcrxd591BNmBb0nzAIaDBIZjndb+Yf6clx+50erhsjxZpvbqIe370v9O/fMBXKnjTuO2v+o6sCw1T3rWvQ==</ds:SignatureValue>
+			<KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIIC3jCCAcagAwIBAgIQKjMeImvXVZlNei4NBGVW3jANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDEyBBREZTIFNpZ25pbmcgLSBzdHMuYjFlbnZlbnVlLmNvbTAeFw0xOTEyMTAxODEzMzFaFw0yMTEyMDkxODEzMzFaMCsxKTAnBgNVBAMTIEFERlMgU2lnbmluZyAtIHN0cy5iMWVudmVudWUuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy0ejkGh62M0jegvdC1aico8fzGVD2hjUJ6f1wbt5P8qiE/4i2WQojetysfQ/iEd+pTm2Dl9thpQTxulfFYBs57y/c6+4LYPbjJLqvkEABykkqLmT4YDDz4O7W0/lX9MM43RZpVU+PoKt2BnIE6W+L1bAUAqISIdnU56Dnkf3Cx2owocJHwjzmg9+jV7MnBQU4EWspdABu1QLhB//IEUO5JI7b7Skf5HkX7PjRpPwhvxyzjH83Cw0d5bZb/I8bIABIZq17kTPAQD0NtLH9kcF7ccGm7fqAul8V8qgpqdNvJupgN2PmEaz+z4+ecp589pwSA8vqoLZEh8j+atvmfsvOQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQBJEdISDCvIAu3ylgedRTZ1eJzqOdie96sB5mHZFyU33QgK6l/NOL3zJ58TNeVEVLS+MLiyWl4NSAO1+f/w8PCfOKqwZaE+WkBxuaiTwMwETcVZVnzQIloqOwr/mQg0v4ROFrUNVgCy+MQByHirPvqw+sjNYvRphgrWKjQE6Jz5oJzLRSP9dRS4uS17zv9bbllsNsAjJOXFb6sTVeqaJ1eVIZqi9w2PwLG4CoULZjdpBv7cTwMtCdND2MmPX6Hbs11m7O6ZDMEg76pZNRL9OYXrUSgnbsh9/leJ2iQdsHcMR37evZvOgyhHcvRgC0/kg/jiBBwoOzyyBdIawZNKzrQR</ds:X509Certificate>
+				</ds:X509Data>
+			</KeyInfo>
+		</ds:Signature>
+		<Subject>
+			<NameID
+				Format="urn:oasis:names:tc:SAML:2.0:nameid-format:persistent">SI2M\idei080</NameID>
+			<SubjectConfirmation
+				Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+				<SubjectConfirmationData
+					NotOnOrAfter="2021-05-19T09:58:18.794Z"
+					Recipient="https://signin.aws.amazon.com/saml" />
+			</SubjectConfirmation>
+		</Subject>
+		<Conditions NotBefore="2021-05-19T09:53:18.732Z"
+			NotOnOrAfter="2021-05-19T19:53:18.732Z">
+			<AudienceRestriction>
+				<Audience>urn:amazon:webservices</Audience>
+			</AudienceRestriction>
+		</Conditions>
+		<AttributeStatement>
+			<Attribute
+				Name="https://aws.amazon.com/SAML/Attributes/RoleSessionName">
+				<AttributeValue>nicolas.tardy@malakoffhumanis.com</AttributeValue>
+			</Attribute>
+			<Attribute
+				Name="https://aws.amazon.com/SAML/Attributes/Role">
+				<AttributeValue>arn:aws:iam::440598665122:saml-provider/production,arn:aws:iam::440598665122:role/ADFS-SiAppsDSIAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::440598665122:saml-provider/production,arn:aws:iam::440598665122:role/ADFS-SuperAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::121504462628:saml-provider/production,arn:aws:iam::121504462628:role/ADFS-SiAppsDSIAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::121504462628:saml-provider/production,arn:aws:iam::121504462628:role/ADFS-SuperAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::560580653482:saml-provider/production,arn:aws:iam::560580653482:role/ADFS-SiAppsDSIAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::560580653482:saml-provider/production,arn:aws:iam::560580653482:role/ADFS-SuperAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::612094680258:saml-provider/production,arn:aws:iam::612094680258:role/ADFS-SiAppsDSIAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::612094680258:saml-provider/production,arn:aws:iam::612094680258:role/ADFS-SuperAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::899810845584:saml-provider/production,arn:aws:iam::899810845584:role/ADFS-SiAppsDSIAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::899810845584:saml-provider/production,arn:aws:iam::899810845584:role/ADFS-SuperAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::570714014737:saml-provider/production,arn:aws:iam::570714014737:role/ADFS-CloudDataAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::295582309271:saml-provider/production,arn:aws:iam::295582309271:role/ADFS-CloudDataAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::093469567457:saml-provider/production,arn:aws:iam::093469567457:role/ADFS-CloudDataAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::854026071195:saml-provider/production,arn:aws:iam::854026071195:role/ADFS-CloudDataAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::562700779246:saml-provider/production,arn:aws:iam::562700779246:role/ADFS-CloudDataAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::118243050178:saml-provider/production,arn:aws:iam::118243050178:role/ADFS-ArchsolAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::335414279310:saml-provider/production,arn:aws:iam::335414279310:role/ADFS-SuperAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::561991813438:saml-provider/production,arn:aws:iam::561991813438:role/ADFS-SuperAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::935427313625:saml-provider/production,arn:aws:iam::935427313625:role/ADFS-SuperAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::092900908531:saml-provider/production,arn:aws:iam::092900908531:role/ADFS-SuperAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::092900908531:saml-provider/production,arn:aws:iam::092900908531:role/ADFS-Finances</AttributeValue>
+				<AttributeValue>arn:aws:iam::620775116462:saml-provider/production,arn:aws:iam::620775116462:role/ADFS-SuperAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::326340836661:saml-provider/production,arn:aws:iam::326340836661:role/ADFS-SuperAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::326340836661:saml-provider/production,arn:aws:iam::326340836661:role/ADFS-Finances</AttributeValue>
+				<AttributeValue>arn:aws:iam::326340836661:saml-provider/production,arn:aws:iam::326340836661:role/ADFS-DevOps</AttributeValue>
+				<AttributeValue>arn:aws:iam::295582309271:saml-provider/production,arn:aws:iam::295582309271:role/ADFS-SuperAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::854026071195:saml-provider/production,arn:aws:iam::854026071195:role/ADFS-SuperAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::854026071195:saml-provider/production,arn:aws:iam::854026071195:role/ADFS-DevOps</AttributeValue>
+				<AttributeValue>arn:aws:iam::562700779246:saml-provider/production,arn:aws:iam::562700779246:role/ADFS-SuperAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::562700779246:saml-provider/production,arn:aws:iam::562700779246:role/ADFS-DevOps</AttributeValue>
+				<AttributeValue>arn:aws:iam::093469567457:saml-provider/production,arn:aws:iam::093469567457:role/ADFS-SuperAdmin</AttributeValue>
+				<AttributeValue>arn:aws:iam::093469567457:saml-provider/production,arn:aws:iam::093469567457:role/ADFS-DevOps</AttributeValue>
+			</Attribute>
+			<Attribute
+				Name="https://aws.amazon.com/SAML/Attributes/SessionDuration">
+				<AttributeValue>36000</AttributeValue>
+			</Attribute>
+		</AttributeStatement>
+		<AuthnStatement AuthnInstant="2021-05-19T06:01:43.131Z"
+			SessionIndex="_af72da79-ea57-4225-b912-29714e97bab3">
+			<AuthnContext>
+				<AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport</AuthnContextClassRef>
+			</AuthnContext>
+		</AuthnStatement>
+	</Assertion>
+</samlp:Response>
+
+
+
+
+<samlp:AuthnRequest
+	ID="_e8e43bc2-72c3-4185-a22e-36ac493d9b34" Version="2.0"
+	IssueInstant="2021-05-27T13:47:34.256Z"
+	Destination="https://sts.b1envenue.com/adfs/ls/"
+	Consent="urn:oasis:names:tc:SAML:2.0:consent:unspecified"
+	xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol">
+	<Issuer xmlns="urn:oasis:names:tc:SAML:2.0:assertion">http://sts.b1envenue.com/adfs/services/trust
+	</Issuer>
+	<Conditions xmlns="urn:oasis:names:tc:SAML:2.0:assertion">
+		<AudienceRestriction>
+			<Audience>urn:amazon:webservices</Audience>
+		</AudienceRestriction>
+	</Conditions>
+</samlp:AuthnRequest>
+
+<samlp:AuthnRequest
+	ID="_e8e43bc2-72c3-4185-a22e-36ac493d9b34" Version="2.0"
+	IssueInstant="2021-05-27T13:47:34.256Z"
+	Destination="https://sts.b1envenue.com/adfs/ls/"
+	Consent="urn:oasis:names:tc:SAML:2.0:consent:unspecified"
+	xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol">
+	<Issuer xmlns="urn:oasis:names:tc:SAML:2.0:assertion">http://sts.b1envenue.com/adfs/services/trust
+	</Issuer>
+	<Conditions xmlns="urn:oasis:names:tc:SAML:2.0:assertion">
+		<AudienceRestriction>
+			<Audience>urn:amazon:webservices</Audience>
+		</AudienceRestriction>
+	</Conditions>
+</samlp:AuthnRequest>
