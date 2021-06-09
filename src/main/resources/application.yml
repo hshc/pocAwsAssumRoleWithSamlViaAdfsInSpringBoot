@@ -1,12 +1,35 @@
+server:
+  servlet:
+    session:
+# adjust timeout in seconds Delta(
+#   Response/Assertion/Subject/SubjectConfirmation/SubjectConfirmationData/@NotOnOrAfter;
+#   Response/Assertion/@IssueInstant(Text[])
+# )
+# to prevent 'Exception in thread "main" software.amazon.awssdk.services.sts.model.ExpiredTokenException: 
+#             Token must be redeemed within 5 minutes of issuance (Service: Sts, Status Code: 400, 
+#             Request ID: ffa63151-df6b-4a2a-8125-79351cad44ac, Extended Request ID: null)'
+# (see. https://itworldjd.wordpress.com/2017/09/29/adfs-settings-webssolifetime-and-token-lifetime/)
+      timeout: 120s
+      cookie:
+        http-only: true
+        secure: true
+
 spring:
   security:
     saml2:
       relyingparty:
         registration:
           adfs:
+            acs:
+              location: https://{baseHost}/login/saml2/sso/{registrationId}
+            entity-id: https://{baseHost}/saml2/service-provider-metadata/{registrationId}
             identityprovider:
               metadata-uri: https://adfs.exp-cloud.com/FederationMetadata/2007-06/FederationMetadata.xml
-          
+# logging:
+#   level:
+#     org:
+#       springframework:
+#         security: DEBUG
 #        registration:
 #          adfs:
 #            identityprovider:
@@ -17,4 +40,3 @@ spring:
 #              singlesignon:
 #                url: https://adfs.exp-cloud.com/adfs/ls
 #                sign-request: false
-baseUrl: tototiti
